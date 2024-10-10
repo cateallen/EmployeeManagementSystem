@@ -22,7 +22,7 @@ To set up the MySQL database using Docker, follow these steps:
 1. Install MySQL
 2. Once MySQL is installed and you have a license then create a new database. This can be done using SQL code such as: 
     ```SQL
-sql exec CREATE DATABASE employee_management
+    CREATE DATABASE employee_management
 3. Run the SQL scripts in the 'SQL/' folder to set up your schema and insert the data:
     ```bash
     mysql -u <your-username> -p employee_management < sql/schema.sql
@@ -31,15 +31,12 @@ sql exec CREATE DATABASE employee_management
 
 ### Accessing the Database
 After setting up the dtb by docker or by installing MySQL manually, you can then run sample queries in queries.sql and also try stored procedures, triggers, views, etc. 
-Note: If you set up the dtb by installing MySQL manually run this cmnd after the schema is initially loaded:
-    ```bash
-    mysql -u <your-username> -p employee_management < sql/queries.sql
 
 
 ## Database Schema
 ERD for the Employee Management System:
 
-![Database Schema](./images/schema_diagram.png)
+![Database Schema](./Images/schema_diagram.png)
 
 
 
