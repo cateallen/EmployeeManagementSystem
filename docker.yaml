@@ -11,4 +11,4 @@ services:
     ports:
       - "3306:3306"
     volumes:
-      - ./sql:/docker-entrypoint-initdb.d/  # This will auto-run all your SQL scripts in the sql/ folder when the container starts
+      - ./sql:/docker-entrypoint-initdb.d/ 
