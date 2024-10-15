@@ -1,3 +1,4 @@
+-- Small update to trigger GitHub language detection
 CREATE TRIGGER before_employee_update
 BEFORE UPDATE ON employees
 FOR EACH ROW
